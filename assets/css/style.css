@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+ }
+a{
+  text-decoration:none!important;
+  }
+ol,ul{
+    list-style:none;
+    }
+img{
+    border:0;
+   }
+html,body{
+    height:100%;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  height: 100%;
+}
+.clr{
+	clear:both;
+}
+::placeholder {
+    font-size: 14px;
+}
+..........
+/* now for bootstrap */
+p0{
+  padding-right:0;
+  padding-left:0;
+   }
+pl0{
+  padding-left:0;
+  }
+pr0{
+  padding-right:0;
+    }
+/*
+.........................................
+
+           margin:top botton right left;
+.........................................
+*/
+
+a {
+  color: #000;
+}
+
+
+
+/*
+========================================================
+Condition Box
+========================================================
+*/
+
+.condition{
+	margin:0;
+	text-align:center;
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-70%);
+
+}
+.card-body{
+    background-color: #d7d7d7 !important;
+}
+
+/*
+========================================================
+Provider page
+========================================================
+*/
+#success_message{ display: none;}
+
+.innerreg {
+  margin-top: 15px;
+}
+.reg {
+    margin-top: 18px;
+}
+.innerreg {
+    margin-top: 15px;
+    border: 2px solid azure;
+    padding: 15px;
+    background-color: ghostwhite;
+    box-shadow: 0px 0 8px 0px #888;
+}
+
+.innerpass{
+    border: 2px solid azure;
+    padding: 15px;
+    background-color: ghostwhite;
+    box-shadow: 0px 0 8px 0px #888;
+}
+/*
+========================================================
+footer
+========================================================
+*/
+.footer {
+    margin-top: 30px;
+}
+.footer h5{
+    color:#919191;
+    font-size:16px;
+    font-family:open-reg;
+    line-height:100px;
+}
+.icon_style img {
+    height: 79px;
+    width: 66px;
+    padding: 12px 5px;
+    margin-top: 7px;
+}
+/*
+========================================================
+job page
+========================================================
+*/
+.job_first{
+   background:url(../img/jbanner.jpg) no-repeat;
+   min-height: 300px;
+   background-size: cover;
+   background-position:center;
+   overflow: hidden;
+}
+.cat_page{
+   background:url(../img/smoke.png) no-repeat;
+   min-height: 250px;
+   background-size: cover;
+   background-position:center;
+   overflow: hidden;
+   color:#fff;
+}
+.search_form {
+    margin-top: 80px;
+}
+.search_job .input_size {
+    height: 54px;
+    width: 360px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+    background: rgba(255, 291, 329, 1.0);
+    border-left: 4px solid #235ebc;
+}
+.search_job h2{
+    margin-top: 20px;
+}
+.submit_size {
+
+    border-radius: 7px;
+    height: 54px;
+    width: 80px;
+    font-size: 16px;
+    border: none;
+    border-right: 3px solid #235ebc;
+    transition:all linear .2s;
+}
+.submit_size:hover{
+    color:#fff;
+    background:#337ab7;
+}
+
+.post_content {
+    padding: 20px;
+    background: aliceblue;
+}
+.full_block {
+    margin-top: 30px;
+    box-shadow: 0px 0px 4px 0px #888888;
+}
+.per_post {
+    margin: 20px;
+    box-shadow: 0px 0px 2px 1px #c5c0c0ab;
+}
+.gap {
+    padding-top: 1px;
+}
+
+.modal-header {
+    display: table-cell !important;
+}
+.modal-footer {
+  display: table-cell !important;
+}
+.headline {
+
+    background: cadetblue;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: azure;
+
+}
+.member_list_inner {
+  background: url(http://1.bp.blogspot.com/-7JaMwsCMLKc/VtgYIiYSEAI/AAAAAAAADS0/U3r8SVBzqTw/s000/widgettitle-bg.png)repeat-x !important;
+  background-size: contain !important;
+  border-bottom: 1px solid #D1D1D1 !important;
+  font-size: 20px;
+  color: currentColor;
+  padding: 6px 0 6px 0;
+  margin-top: 30px;
+}
+.member_list_inner span {
+    padding: 10px;
+    font-size:25px;
+}
+
+.table-bordered td, .table-bordered th {
+    font-size: 14px!important;
+}
+.btn-info {
+    font-size: 14px!important;
+}
+.form-control:disabled, .form-control[readonly] {
+    font-size: 14px!important;
+}
+.design{
+  font-family: 
+}
+
+.panel{
+  margin-top: 30px;
+}
+.panel-default{
+  border-color: #ddd;
+}
+
+.btn3-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn3 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.pagination {
+    display: block;
+    font-size: 20px;
+    margin-top: 17px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pagination a {
+    padding: 6px 6px 6px 6px;
+    background: cadetblue;
+    margin: 3px;
+    border-radius: 4px;
+    color: #fff;
+}
+.pagination a:hover {
+  background-color:#3C7278;
+}
+
+.msgg h4 {
+    padding: 4px;
+    font-family: open-reg;
+    margin: 2px;
+}
+.dropdown-item {
+    background-color: aliceblue!important;
+}
+.header .menu-btn:checked ~ .menu {
+    max-height: 100%!important;
+}
+
+p.gaps {
+    padding: 2px 0 0 38px;
+}
+.cond {
+    margin: 17px 0 37px 0;
+}
+
+.per_post h4{
+    text-shadow: 3px 6px 3px #8888!important;
+}
